@@ -21,7 +21,7 @@
    pip install opencv-python numpy
 
 2. Python 스크립트 실행
-   python cartoon_filter.py
+   python cv_hw2.py
 
 --------------------------------------------------
 [ 변환 전후 이미지 ]
