@@ -5,12 +5,12 @@
 --------------------------------------------------
 [ 파일 구조 ]
 프로젝트 폴더
-│── cv_hw2.py           # 필터 적용 코드
-│── README.md           # 프로젝트 설명z
-│── image_statue.png    # 원본 이미지 1
-│── output_statue.png   # 변환된 이미지 1
-│── image_wave.png      # 원본 이미지 2
-│── output_wave.png     # 변환된 이미지 2
+cv_hw2.py           # 필터 적용 코드
+README.md           # 프로젝트 설명z
+image_statue.png    # 원본 이미지 1 (성공한 이미지)
+output_statue.png   # 변환된 이미지 1 (실패한 이미지)
+image_wave.png      # 원본 이미지 2 (성공한 이미지)
+output_wave.png     # 변환된 이미지 2 (실패한 이미지)
 
 --------------------------------------------------
 [ 실행 방법 ]
@@ -23,7 +23,14 @@
 --------------------------------------------------
 [ 변환 전후 이미지 ]
 (1) image_statue.png  →  output_statue.png
+| 원본 이미지 | 변환 (성공) |
+|------------|--------------|
+| ![image_statue](image_statue.png) | ![output_statue](output_statue.png) |
+
 (2) image_wave.png  →  output_wave.png
+| 원본 이미지 | 변환 (실패) |
+|------------|--------------|
+| ![image_wave](image_wave.png) | ![output_wave](output_wave.png) |
 
 각 원본 이미지는 애니메이션 스타일로 변환됩니다.
 변환 과정에서는 외곽선을 강조하고, 색상을 부드럽게 처리하는 필터가 적용됩니다.
